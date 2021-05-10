@@ -1,0 +1,31 @@
+.background{
+    background-image: url('img/background.png');
+    position: relative;
+    width: 500px;
+    height: 330px;
+
+}
+#drone{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    width: 100px;
+    height: 150px;
+}
+#spit{
+    display: none;
+    position:absolute;
+    top: 140px;
+    left: 150px;
+    width: 50px;
+    height: 30px;
+    z-index: 2;
+    /* z-index의 값이 높다 = 레이어가 위에 있다 */
+}
+#bunker {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 80px;
+    right: 20px;
+  }
